@@ -26,6 +26,10 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.header {
+  font-size: 40px;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
