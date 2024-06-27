@@ -565,11 +565,11 @@ video {
 .h-44 {
   height: 11rem;
 }
-.h-full {
-  height: 100%;
-}
 .h-96 {
   height: 24rem;
+}
+.h-full {
+  height: 100%;
 }
 .w-44 {
   width: 11rem;
@@ -626,9 +626,6 @@ video {
 }
 .p-4 {
   padding: 1rem;
-}
-.p-1 {
-  padding: 0.25rem;
 }
 .font-mono {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
