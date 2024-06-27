@@ -497,22 +497,19 @@ video {
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
 }
-.text-blue-700 {
-  --tw-text-opacity: 1;
-  color: rgb(29 78 216 / var(--tw-text-opacity));
-}
 
 :root {
-  --foreground-rgb: 0, 0, 20;
+  --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 20, 219, 22;
   --background-end-rgb: 25, 255, 20;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 0, 0, 0;
+    --foreground-rgb: 51, 255, 51;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
+
   }
 }
 
