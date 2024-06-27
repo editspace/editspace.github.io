@@ -618,9 +618,6 @@ video {
 .to-blue-600 {
   --tw-gradient-to: #2563eb var(--tw-gradient-to-position);
 }
-.bg-center {
-  background-position: center;
-}
 .p-0 {
   padding: 0px;
 }
@@ -629,6 +626,9 @@ video {
 }
 .p-4 {
   padding: 1rem;
+}
+.text-center {
+  text-align: center;
 }
 .font-mono {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -700,6 +700,10 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+.header {
+  font-size: 40px;
 }
 
 .group\/card:hover .group-hover\/card\:opacity-100 {
