@@ -7,13 +7,13 @@ export default function Page() {
       <p className="text-center">
         editspace is our founder and our co-founder is Bob_Plaz_Gamez
       </p>
-      <div className="w-full md:w-1/2 lg:w-1/3  h-96">
-        {" "}
-        {/* Adjust height as needed */}
-        <EvervaultCard text="editspace" className="class1 h-full" />
-      </div>
-      <div className="w-full md:w-1/4 lg:w-1/3 h-96">
-        <EvervaultCard text="Bob_playz_gamez" className="bob h-full" />
+      <div className="flex flex-wrap justify-center space-x-4">
+        <div className="w-full md:w-1/2 lg:w-1/3  h-96">
+          <EvervaultCard text="editspace" className="class1 h-full" />
+        </div>
+        <div className="w-full md:w-1/2 lg:w-1/3  h-96">
+          <EvervaultCard text="Bob_playz_gamez" className="class1 h-full" />
+        </div>
       </div>
     </div>
   );
